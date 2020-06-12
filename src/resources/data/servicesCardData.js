@@ -1,6 +1,7 @@
 export const servicesCardData = [
   {
     id: 1,
+    image: "private-transport.svg",
     title: "Transporte Privado",
     services: [
       "Transporte de trabajadorespara empresas",
@@ -10,6 +11,7 @@ export const servicesCardData = [
   },
   {
     id: 2,
+    image: "turism.svg",
     title: "Turismo",
     services: [
       "Tours por los principales atractivos turísticos de la región metropolitana",

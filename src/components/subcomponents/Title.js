@@ -1,7 +1,7 @@
 import React from "react";
 import { titlesData } from "../../resources/data/titlesData";
 import { selectStyle, importSpecificData } from "../../functions/functions";
-import useStyles from "../../resources/styles/subcomponents/sectionTitleStyles";
+import useStyles from "../../resources/styles/subcomponents/TitleStyles";
 
 import { Typography } from "@material-ui/core";
 

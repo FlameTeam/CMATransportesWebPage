@@ -2,12 +2,12 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   button: {
-    background: "#0228AF",
+    background: "#2269F1",
     color: "#FFFFFF",
     textTransform: "capitalize",
-    boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
     borderRadius: "100px",
     padding: "0.1em 1em",
+    boxShadow: "4px 4px 4px rgba(0, 0, 0, 0.35)",
 
     "&:hover": {
       background: "#FFFFFF",
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "1em",
     },
     [theme.breakpoints.up("sm")]: {
-      fontSize: "0.9em",
+      fontSize: "1em",
     },
     [theme.breakpoints.up("md")]: {
       fontSize: "1.1em",

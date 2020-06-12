@@ -1,15 +1,24 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const padding = "1em";
-
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   blue: {
     backgroundColor: "#2269F1",
-    padding,
+
+    [theme.breakpoints.up("xs")]: {
+      padding: "2em",
+    },
+    [theme.breakpoints.up("sm")]: {
+      padding: "2em",
+    },
+    [theme.breakpoints.up("md")]: {
+      padding: "3em",
+    },
+    [theme.breakpoints.up("lg")]: {
+      padding: "3em",
+    },
   },
   white: {
     backgroundColor: "#FFFFFF",
-    padding,
   },
 }));
 
