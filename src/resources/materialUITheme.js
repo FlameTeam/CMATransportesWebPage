@@ -5,8 +5,6 @@ const breakpoints = createBreakpoints({});
 
 export const theme = createMuiTheme({
   typography: {
-    fontFamily: "Roboto",
-
     h1: {
       [breakpoints.up("xs")]: {},
       [breakpoints.up("sm")]: {},

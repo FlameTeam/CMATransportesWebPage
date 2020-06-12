@@ -2,7 +2,7 @@ import React from "react";
 import Services from "./components/Services";
 
 import { ThemeProvider } from "@material-ui/core/styles";
-import { theme } from "./materialUITheme";
+import { theme } from "./resources/materialUITheme";
 
 const App = () => {
   return (

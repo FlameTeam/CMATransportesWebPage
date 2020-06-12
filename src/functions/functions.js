@@ -1,7 +1,14 @@
-//selectStyle function
-//function that return a different css style for differents colors
+/**
+ * @author DixonOrtiz
+ * @function selectStyle
+ * @description function that return a different css style for differents colors
+ * @argument {string color, object classes (style sheet)}
+ * @return  { json style (css properties) }
+ */
 exports.selectStyle = (color, classes) => {
   let style;
+
+  console.log(typeof classes);
 
   switch (color) {
     case "white":
@@ -19,8 +26,13 @@ exports.selectStyle = (color, classes) => {
   return style;
 };
 
-//importData function
-//function that returns an specific json data from an specific component
+/**
+ * @author DixonOrtiz
+ * @function importData
+ * @description function that returns an specific json data from an specific component
+ * @argument {string section, json array sectionData}
+ * @return  { json finalData (data requested) }
+ */
 exports.importData = (section, sectionData) => {
   let finalData;
 

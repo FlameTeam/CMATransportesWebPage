@@ -1,6 +1,6 @@
 import React from "react";
-import SectionTitle from "./subcomponents/SectionTitle";
-import useStyles from "../styles/sectionsStyles";
+import Title from "./subcomponents/Title";
+import useStyles from "../resources/styles/sectionsStyles";
 import { selectStyle } from "../functions/functions";
 
 import { Box } from "@material-ui/core";
@@ -11,7 +11,7 @@ const Services = ({ backgroundSection }) => {
 
   return (
     <Box className={sectionStyle}>
-      <SectionTitle section="services" />
+      <Title section="services" />
     </Box>
   );
 };

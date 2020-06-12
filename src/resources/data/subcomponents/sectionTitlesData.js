@@ -1,4 +1,4 @@
-export const sectionTitlesData = [
+export const titlesData = [
   {
     id: 1,
     section: "services",

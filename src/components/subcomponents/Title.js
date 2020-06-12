@@ -1,14 +1,14 @@
 import React from "react";
-import { sectionTitlesData } from "../../content-data/subcomponents/sectionTitlesData";
+import { titlesData } from "../../resources/data/subcomponents/sectionTitlesData";
 import { selectStyle, importData } from "../../functions/functions";
-import useStyles from "../../styles/subcomponents/sectionTitleStyles";
+import useStyles from "../../resources/styles/subcomponents/sectionTitleStyles";
 
 import { Typography } from "@material-ui/core";
 
-const SectionTitle = ({ section }) => {
+const Title = ({ section }) => {
   const classes = useStyles();
 
-  const titleData = importData(section, sectionTitlesData);
+  const titleData = importData(section, titlesData);
   const titleStyle = selectStyle(titleData.color, classes);
 
   return (
@@ -18,4 +18,4 @@ const SectionTitle = ({ section }) => {
   );
 };
 
-export default SectionTitle;
+export default Title;
