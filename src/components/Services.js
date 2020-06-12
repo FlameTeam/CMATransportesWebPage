@@ -16,7 +16,7 @@ const Services = ({ backgroundSection }) => {
   return (
     <Box className={sectionStyle}>
       <Title section="services" />
-      <Grid container>
+      <Grid container justify="space-around">
         {servicesCardData.map((card, i) => {
           return <ServicesCard key={i} card={card} />;
         })}
@@ -26,8 +26,3 @@ const Services = ({ backgroundSection }) => {
 };
 
 export default Services;
-
-// if (servicesCardData.length - 1 === i) {
-//   return <ServicesCard key={i} card={card} lastCard={true} />;
-// }
-// return <ServicesCard key={i} card={card} lastCard={false} />;
