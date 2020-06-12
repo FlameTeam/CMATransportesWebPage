@@ -8,8 +8,6 @@
 exports.selectStyle = (color, classes) => {
   let style;
 
-  console.log(typeof classes);
-
   switch (color) {
     case "white":
       style = classes.white;
@@ -34,21 +32,13 @@ exports.selectStyle = (color, classes) => {
  * @return  { json finalData (data requested) }
  */
 exports.importData = (section, sectionData) => {
-  let finalData;
+  let finalData = "";
 
-  switch (section) {
-    case "services":
-      sectionData.forEach((data) => {
-        if (data.section === section) {
-          finalData = data;
-        }
-      });
-
-      break;
-
-    default:
-      return "";
-  }
+  sectionData.forEach((data) => {
+    if (data.section === section) {
+      finalData = data;
+    }
+  });
 
   return finalData;
 };
