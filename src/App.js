@@ -1,11 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Services from "./components/Services";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>CMA Transportes</h1>
-    </div>
+    <Fragment>
+      <Services />
+    </Fragment>
   );
-}
+};
 
 export default App;
