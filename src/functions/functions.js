@@ -5,11 +5,11 @@ exports.selectStyle = (color, classes) => {
 
   switch (color) {
     case "white":
-      style = classes.whiteTitle;
+      style = classes.white;
       break;
 
     case "blue":
-      style = classes.blueTitle;
+      style = classes.blue;
       break;
 
     default:

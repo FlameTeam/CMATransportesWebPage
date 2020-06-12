@@ -1,11 +1,14 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Services from "./components/Services";
+
+import { ThemeProvider } from "@material-ui/core/styles";
+import { theme } from "./materialUITheme";
 
 const App = () => {
   return (
-    <Fragment>
-      <Services />
-    </Fragment>
+    <ThemeProvider theme={theme}>
+      <Services backgroundSection="blue" />
+    </ThemeProvider>
   );
 };
 
