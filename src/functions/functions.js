@@ -26,12 +26,12 @@ exports.selectStyle = (color, classes) => {
 
 /**
  * @author DixonOrtiz
- * @function importData
+ * @function importSpecificData
  * @description function that returns an specific json data from an specific component
  * @argument {string section, json array sectionData}
  * @return  { json finalData (data requested) }
  */
-exports.importData = (section, sectionData) => {
+exports.importSpecificData = (section, sectionData) => {
   let finalData = "";
 
   sectionData.forEach((data) => {
