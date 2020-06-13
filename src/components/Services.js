@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import Title from "./subcomponents/Title";
 import ServicesCard from "./subcomponents/ServicesCard";
 
@@ -26,3 +28,7 @@ const Services = ({ backgroundSection }) => {
 };
 
 export default Services;
+
+Services.propTypes = {
+  backgroundSection: PropTypes.string.isRequired,
+};

@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import { titlesData } from "../../resources/data/titlesData";
 import { selectStyle, importSpecificData } from "../../functions/functions";
 import useStyles from "../../resources/styles/subcomponents/TitleStyles";
@@ -19,3 +21,7 @@ const Title = ({ section }) => {
 };
 
 export default Title;
+
+Title.propTypes = {
+  section: PropTypes.string.isRequired,
+};
