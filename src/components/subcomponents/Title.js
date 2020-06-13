@@ -1,14 +1,16 @@
 import React from "react";
-import { titlesData } from "../../resources/data/subcomponents/sectionTitlesData";
-import { selectStyle, importData } from "../../functions/functions";
-import useStyles from "../../resources/styles/subcomponents/sectionTitleStyles";
+import PropTypes from "prop-types";
+
+import { titlesData } from "../../resources/data/titlesData";
+import { selectStyle, importSpecificData } from "../../functions/functions";
+import useStyles from "../../resources/styles/subcomponents/TitleStyles";
 
 import { Typography } from "@material-ui/core";
 
 const Title = ({ section }) => {
   const classes = useStyles();
 
-  const titleData = importData(section, titlesData);
+  const titleData = importSpecificData(section, titlesData);
   const titleStyle = selectStyle(titleData.color, classes);
 
   return (
@@ -19,3 +21,7 @@ const Title = ({ section }) => {
 };
 
 export default Title;
+
+Title.propTypes = {
+  section: PropTypes.string.isRequired,
+};
