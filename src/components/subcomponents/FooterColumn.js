@@ -15,13 +15,13 @@ const FooterColumn = ({ card }) => {
       xs={12}
       sm={3}
       md={4}
-      lg={4}
+      lg={3}
       container
       direction="column"
       className={mainClasses.background}
     >
 
-      <Typography variant="h2" color="textPrimary" align="left">
+      <Typography variant="h3" color="textPrimary">
         {card.title}
       </Typography>
 

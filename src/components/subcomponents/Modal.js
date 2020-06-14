@@ -16,18 +16,18 @@ export default function TransitionsModal({ information }) {
     setOpen(false);
   };
 
-  const component=information.info?(
-    <Link href="#" variant="body2" color="inherit" onClick={handleOpen}>
+  const component=!information.info?information.subtitle:(
+    <Link href="#" color="inherit" onClick={handleOpen}>
         {information.subtitle}
     </Link>
-  ):(
-    <Typography variant="body2" align="left">
-        {information.subtitle}
-    </Typography>)
+  )
 
   return (
     <div>
-        {component}
+        <Typography variant="body2">
+            {component}
+        </Typography>
+        
         <Modal
             aria-labelledby="transition-modal-title"
             aria-describedby="transition-modal-description"

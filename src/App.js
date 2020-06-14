@@ -11,7 +11,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <Services backgroundSection="blue" />
       <QualitySeals backgroundSection="white" />
-      <Footer backgroundSection="white" />
+      <Footer backgroundSection="footer" />
     </ThemeProvider>
   );
 };

@@ -44,18 +44,60 @@ export const theme = createMuiTheme({
       },
     },
 
+    h3: {
+      [breakpoints.up("xs")]: {
+        textAlign:"center",
+        fontSize: "1em",
+      },
+      [breakpoints.up("sm")]: {
+        textAlign:"left",
+        fontSize: "1em",
+      },
+      [breakpoints.up("md")]: {
+        textAlign:"left",
+        fontSize: "1em",
+      },
+      [breakpoints.up("lg")]: {
+        textAlign:"left",
+        fontSize: "1em",
+      },
+    },
+
     body1: {
       color: "#000201", //Black
 
       [breakpoints.up("xs")]: {},
       [breakpoints.up("sm")]: {
-        fontSize: "0.9em",
+        fontSize: "1em",
       },
       [breakpoints.up("md")]: {
         fontSize: "1em",
       },
       [breakpoints.up("lg")]: {
         fontSize: "1.1em",
+      },
+    },
+
+    body2: {  
+      [breakpoints.up("xs")]: {
+        textAlign:"center",
+        fontSize: "0.8em",
+        marginBottom:"0.4em",
+      },
+      [breakpoints.up("sm")]: {
+        textAlign:"left",
+        fontSize: "0.8em",
+        marginBottom:"0.6em",
+      },
+      [breakpoints.up("md")]: {
+        textAlign:"left",
+        fontSize: "0.8em",
+        marginBottom:"0.5em",
+      },
+      [breakpoints.up("lg")]: {
+        textAlign:"left",
+        fontSize: "0.85em",
+        marginBottom:"0.7em",
       },
     },
 
@@ -96,23 +138,6 @@ export const theme = createMuiTheme({
       [breakpoints.up("lg")]: {
         fontSize: "1.2em",
       },
-    },
-  },
-
-  body2: {
-    color: "#000000",
-
-    [breakpoints.up("xs")]: {
-      fontSize: "1em",
-    },
-    [breakpoints.up("sm")]: {
-      fontSize: "1em",
-    },
-    [breakpoints.up("md")]: {
-      fontSize: "1em",
-    },
-    [breakpoints.up("lg")]: {
-      fontSize: "1.2em",
     },
   },
 });
