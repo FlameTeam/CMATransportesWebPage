@@ -8,6 +8,10 @@ const useStyles = makeStyles((theme) => ({
   blue: {
     color: "#2269F1",
   },
+
+  black: {
+    color: "#000000",
+  },
 }));
 
 export default useStyles;
