@@ -13,7 +13,7 @@ const FooterColumn = ({ card }) => {
     <Grid
       item
       xs={12}
-      sm={4}
+      sm={3}
       md={4}
       lg={4}
       container

@@ -2,23 +2,20 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   background: {
-
     [theme.breakpoints.up("xs")]: {
-      padding: "3em 1em",
-      maxWidth: "220px",
-      marginTop:"1em",
-      margin:"1em",
+      padding: "2em 1em",
+      maxWidth: "330px",
 
     },
     [theme.breakpoints.up("sm")]: {
-        maxWidth: "300px",
-        minWidth:"220px",
-        margin:"1.2em",
+        maxWidth: "210px",
+        minWidth:"150px",
+        padding: "1em 1em",
     },
     [theme.breakpoints.up("md")]: {
-      maxWidth: "310px",
-      minWidth:"200px",
-      margin:"auto",
+      maxWidth: "240px",
+      minWidth:"100px",
+      padding: "2em 1em"
     },
     [theme.breakpoints.up("lg")]: {
       maxWidth: "310px",

@@ -112,7 +112,7 @@ export const theme = createMuiTheme({
       fontSize: "1em",
     },
     [breakpoints.up("lg")]: {
-      fontSize: "1em",
+      fontSize: "1.2em",
     },
   },
 });
