@@ -1,6 +1,15 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
+  navbar: {
+    backgroundColor: "red",
+
+    [theme.breakpoints.up("xs")]: {},
+    [theme.breakpoints.up("sm")]: {},
+    [theme.breakpoints.up("md")]: {},
+    [theme.breakpoints.up("lg")]: {},
+  },
+
   blue: {
     backgroundColor: "#2269F1",
 
@@ -19,7 +28,6 @@ const useStyles = makeStyles((theme) => ({
   },
   white: {
     backgroundColor: "#FFFFFF",
-
 
     [theme.breakpoints.up("xs")]: {
       padding: "4em 2em 6em 2em",
