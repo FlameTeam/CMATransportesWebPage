@@ -98,4 +98,21 @@ export const theme = createMuiTheme({
       },
     },
   },
+
+  body2: {
+    color: "#000000",
+
+    [breakpoints.up("xs")]: {
+      fontSize: "1em",
+    },
+    [breakpoints.up("sm")]: {
+      fontSize: "1em",
+    },
+    [breakpoints.up("md")]: {
+      fontSize: "1em",
+    },
+    [breakpoints.up("lg")]: {
+      fontSize: "1em",
+    },
+  },
 });
