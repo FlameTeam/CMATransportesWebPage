@@ -45,10 +45,10 @@ const useStyles = makeStyles((theme) => ({
       padding: "4em 2em 5em 2em",
     },
     [theme.breakpoints.up("md")]: {
-      padding: "2em 3em 4em 3em",
+      padding: "1em 3em 3em 3em",
     },
     [theme.breakpoints.up("lg")]: {
-      padding: "2em 2em 4em 2em",
+      padding: "2em 2em 3em 2em",
     },
   },
 }));

@@ -140,4 +140,19 @@ export const theme = createMuiTheme({
       },
     },
   },
+
+  overrides: {
+    MuiTypography:{
+      h6:{
+        fontWeight: "bold"
+      }      
+    },
+
+    MuiDialogActions: {
+      root: {
+        padding:"8px 8px 12px",
+        justifyContent: "center"
+      },
+    },
+  },
 });

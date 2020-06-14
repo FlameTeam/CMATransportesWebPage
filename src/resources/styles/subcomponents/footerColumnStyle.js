@@ -26,7 +26,6 @@ const useStyles = makeStyles((theme) => ({
   
   line: {
     border: "1px solid #0228AF",
-    background: "#0228AF",
     width:"100%",
 
     [theme.breakpoints.up("xs")]: {

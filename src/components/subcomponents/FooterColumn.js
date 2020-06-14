@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import useStyles from "../../resources/styles/subcomponents/footerColumnStyle";
 import { Grid, Typography } from "@material-ui/core";
-import Modal from "./Modal";
+import Dialog from "./dialog/Dialog";
 
 const FooterColumn = ({ card }) => {
   const mainClasses = useStyles();
@@ -29,7 +29,7 @@ const FooterColumn = ({ card }) => {
 
       {informations.map(function(information, i) {
         return (
-            <Modal key={i} information={information} />
+            <Dialog key={i} information={information} />
         );
       })}
 
