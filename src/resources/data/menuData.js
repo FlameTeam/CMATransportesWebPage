@@ -1,4 +1,4 @@
-export const menuListItemData = [
+export const menuData = [
   {
     content: "Inicio",
   },

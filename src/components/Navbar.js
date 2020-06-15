@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 import useStyles from "../resources/styles/sectionsStyles";
 import { selectStyle } from "../functions/functions";
 
-import { menuListItemData } from "../resources/data/menuListItemData";
-import MenuListItem from "./subcomponents/navbar/MenuListItem";
+import Logo from "./subcomponents/navbar/Logo";
+import Menu from "./subcomponents/navbar/Menu";
 
-import { AppBar, Toolbar } from "@material-ui/core";
+import { AppBar, Toolbar, Grid } from "@material-ui/core";
 
 const Navbar = ({ backgroundSection }) => {
   const classes = useStyles();
@@ -15,14 +15,15 @@ const Navbar = ({ backgroundSection }) => {
 
   return (
     <AppBar position="static">
-      <Toolbar>
-        <h1>Flame</h1>
-
-        <ul>
-          {menuListItemData.map((listItem, i) => {
-            return <MenuListItem key={i} content={listItem.content} />;
-          })}
-        </ul>
+      <Toolbar className={sectionStyle}>
+        <Grid container alignItems="center">
+          <Grid item md={5}>
+            <Logo />
+          </Grid>
+          <Grid item md={7}>
+            <Menu />
+          </Grid>
+        </Grid>
       </Toolbar>
     </AppBar>
   );
