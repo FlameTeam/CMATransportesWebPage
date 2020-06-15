@@ -15,7 +15,7 @@ const Navbar = ({ backgroundSection }) => {
 
   return (
     <AppBar position="static">
-      <Toolbar className={sectionStyle}>
+      <Toolbar>
         <h1>Flame</h1>
 
         <ul>

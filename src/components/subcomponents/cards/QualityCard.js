@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import useStyles from "../../resources/styles/subcomponents/qualityCardStyle";
+import useStyles from "../../../resources/styles/subcomponents/qualityCardStyle";
 import { Grid, Typography } from "@material-ui/core";
-
 
 const QualityCard = ({ card }) => {
   const mainClasses = useStyles();
@@ -25,7 +24,6 @@ const QualityCard = ({ card }) => {
       <Typography variant="subtitle2" align="center">
         {card.title}
       </Typography>
-
     </Grid>
   );
 };

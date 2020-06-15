@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import useStyles from "../../resources/styles/subcomponents/servicesCardStyle";
-import buttonStyle from "../../resources/styles/subcomponents/buttonStyle";
+import useStyles from "../../../resources/styles/subcomponents/servicesCardStyle";
+import buttonStyle from "../../../resources/styles/subcomponents/buttonStyle";
 import { Grid, Typography, Button } from "@material-ui/core";
 
-import privateTransport from "../../resources/images/private-transport.svg";
-import turism from "../../resources/images/turism.svg";
+import privateTransport from "../../../resources/images/private-transport.svg";
+import turism from "../../../resources/images/turism.svg";
 
 const ServicesCard = ({ card }) => {
   const mainClasses = useStyles();

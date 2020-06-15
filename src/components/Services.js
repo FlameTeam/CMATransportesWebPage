@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Title from "./subcomponents/Title";
-import ServicesCard from "./subcomponents/ServicesCard";
+import ServicesCard from "./subcomponents/cards/ServicesCard";
 
 import { servicesCardData } from "../resources/data/servicesCardData";
 
