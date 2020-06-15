@@ -43,6 +43,24 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 
+  header: {
+    backgroundColor: "#FFFFFF",
+
+
+    [theme.breakpoints.up("xs")]: {
+      padding: "1em 1em 6em 1em",
+    },
+    [theme.breakpoints.up("sm")]: {
+      padding: "4em 2em 5em 2em",
+    },
+    [theme.breakpoints.up("md")]: {
+      padding: "5em 3em 6em 3em",
+    },
+    [theme.breakpoints.up("lg")]: {
+      padding: "8em 3em 8em 3em",
+    },
+  },
+
   footer: {
     backgroundColor: "#FFFFFF",
 

@@ -25,6 +25,10 @@ exports.selectStyle = (color, classes) => {
       style = classes.footer;
       break;
 
+      case "header":
+        style = classes.header;
+        break;
+
     default:
       return "";
   }
