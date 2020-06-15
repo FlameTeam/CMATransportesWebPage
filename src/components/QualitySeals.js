@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Title from "./subcomponents/Title";
-import Subtitle from "./subcomponents/Subtitle";
 import QualityCard from "./subcomponents/QualityCard";
 import { qualityCardData } from "../resources/data/qualityCardData";
 
@@ -18,7 +17,7 @@ const QualitySeals = ({ backgroundSection }) => {
   return (
     <Box className={sectionStyle}>
       <Title section="quality-seals" />
-      <Subtitle section="quality-seals" />
+      <Title section="quality-seals-sub" />
       <Grid container justify="space-around">
         {qualityCardData.map((card, i) => {
           return <QualityCard key={i} card={card} />;

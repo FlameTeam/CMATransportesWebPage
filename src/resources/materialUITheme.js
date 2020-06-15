@@ -16,13 +16,13 @@ export const theme = createMuiTheme({
 
     h1: {
       [breakpoints.up("xs")]: {
-        fontSize: "2.2em",
+        fontSize: "1.8em",
       },
       [breakpoints.up("sm")]: {
-        fontSize: "2.3em",
+        fontSize: "2em",
       },
       [breakpoints.up("md")]: {
-        fontSize: "2.4em",
+        fontSize: "2.2em",
       },
       [breakpoints.up("lg")]: {
         fontSize: "2.5em",
@@ -45,6 +45,26 @@ export const theme = createMuiTheme({
     },
 
     h3: {
+      [breakpoints.up("xs")]: {
+        marginTop:"1.4em", 
+        marginBottom:"0.5em", 
+        fontSize: "1.35em",
+      },
+      [breakpoints.up("sm")]: {
+        fontSize: "1.3em",
+        marginTop:"2.2em", 
+      },
+      [breakpoints.up("md")]: {
+        fontSize: "1.5em",
+        marginTop:"2.2em",        
+      },
+      [breakpoints.up("lg")]: {
+        fontSize: "1.9em",
+        marginTop:"2em",        
+      },
+    },
+
+    h4: {
       [breakpoints.up("xs")]: {
         textAlign:"center",
         fontSize: "1em",

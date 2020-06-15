@@ -14,7 +14,7 @@ const Title = ({ section }) => {
   const titleStyle = selectStyle(titleData.color, classes);
 
   return (
-    <Typography variant="h1" className={titleStyle}>
+    <Typography variant={titleData.variant} className={titleStyle}>
       {titleData.title}
     </Typography>
   );

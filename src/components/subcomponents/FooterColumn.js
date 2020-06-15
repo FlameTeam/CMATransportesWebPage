@@ -21,7 +21,7 @@ const FooterColumn = ({ card }) => {
       className={mainClasses.background}
     >
 
-      <Typography variant="h3" color="textPrimary">
+      <Typography variant="h4" color="textPrimary">
         {card.title}
       </Typography>
 
