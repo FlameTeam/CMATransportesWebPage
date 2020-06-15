@@ -51,15 +51,19 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#FFFFFF",
 
     [theme.breakpoints.up("xs")]: {
+      marginTop: "65px",
       padding: "1em 1em 6em 1em",
     },
     [theme.breakpoints.up("sm")]: {
+      marginTop: "73px",
       padding: "4em 2em 5em 2em",
     },
     [theme.breakpoints.up("md")]: {
+      marginTop: "81px",
       padding: "5em 3em 6em 3em",
     },
     [theme.breakpoints.up("lg")]: {
+      marginTop: "95px",
       padding: "8em 3em 8em 3em",
     },
   },

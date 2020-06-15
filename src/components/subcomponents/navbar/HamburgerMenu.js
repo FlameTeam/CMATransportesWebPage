@@ -6,12 +6,14 @@ import { IconButton } from "@material-ui/core";
 
 import useStyles from "../../../resources/styles/subcomponents/hamburgerMenuStyle";
 
-export default function Logo() {
+const HamburgerMenu = ({ toggleDrawer }) => {
   const classes = useStyles();
 
   return (
-    <IconButton className={classes.hamburgerMenu} onClick="">
+    <IconButton className={classes.hamburgerMenu} onClick={toggleDrawer}>
       <img alt="hamburger-menu" src={hamburgerMenuIcon} />
     </IconButton>
   );
-}
+};
+
+export default HamburgerMenu;
