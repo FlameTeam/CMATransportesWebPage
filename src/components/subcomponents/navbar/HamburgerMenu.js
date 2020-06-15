@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import hamburgerMenuIcon from "../../../resources/images/hamburger-menu-icon.svg";
 
@@ -17,3 +18,7 @@ const HamburgerMenu = ({ toggleDrawer }) => {
 };
 
 export default HamburgerMenu;
+
+HamburgerMenu.propTypes = {
+  toggleDrawer: PropTypes.func,
+};

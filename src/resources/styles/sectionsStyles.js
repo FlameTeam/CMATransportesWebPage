@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#2269F1",
 
     [theme.breakpoints.up("xs")]: {
-      padding: "2em",
+      padding: "3em 2em",
     },
     [theme.breakpoints.up("sm")]: {
       padding: "2em",
@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
       padding: "3em",
     },
     [theme.breakpoints.up("lg")]: {
-      padding: "3em",
+      padding: "4em 3em",
     },
   },
   white: {
