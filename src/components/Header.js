@@ -28,7 +28,11 @@ const Header = ({ backgroundSection }) => {
     </Grid>
   );
 
-  return <Box className={sectionStyle}>{order}</Box>;
+  return (
+    <Box className={sectionStyle} id="header">
+      {order}
+    </Box>
+  );
 };
 
 Header.propTypes = {

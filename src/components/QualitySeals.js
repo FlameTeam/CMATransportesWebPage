@@ -15,7 +15,7 @@ const QualitySeals = ({ backgroundSection }) => {
   const sectionStyle = selectStyle(backgroundSection, classes);
 
   return (
-    <Box className={sectionStyle}>
+    <Box className={sectionStyle} id="quality">
       <Title section="quality-seals" />
       <Title section="quality-seals-sub" />
       <Grid container justify="space-around">

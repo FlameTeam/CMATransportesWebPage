@@ -16,7 +16,7 @@ const Services = ({ backgroundSection }) => {
   const sectionStyle = selectStyle(backgroundSection, classes);
 
   return (
-    <Box className={sectionStyle}>
+    <Box className={sectionStyle} id="services">
       <Title section="services" />
       <Grid container justify="space-around">
         {servicesCardData.map((card, i) => {

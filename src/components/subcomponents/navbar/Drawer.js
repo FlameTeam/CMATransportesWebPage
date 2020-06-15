@@ -1,5 +1,8 @@
 import React from "react";
+import { Link } from "react-scroll";
 import PropTypes from "prop-types";
+
+import { menuData } from "../../../resources/data/menuData";
 
 import { Box, ListItem, List, Typography } from "@material-ui/core";
 import MaterialUIDrawer from "@material-ui/core/Drawer";
@@ -17,23 +20,27 @@ const Drawer = ({ drawerState, toggleDrawer }) => {
         onKeyDown={toggleDrawer}
       >
         <List>
-          <Typography>
-            <ListItem onClick={toggleDrawer} className={classes.drawerLink}>
-              Inicio
-            </ListItem>
-            <ListItem onClick={toggleDrawer} className={classes.drawerLink}>
-              Servicios
-            </ListItem>
-            <ListItem onClick={toggleDrawer} className={classes.drawerLink}>
-              Contacto
-            </ListItem>
-            <ListItem onClick={toggleDrawer} className={classes.drawerLink}>
-              Nuestro Equipo
-            </ListItem>
-            <ListItem onClick={toggleDrawer} className={classes.drawerLink}>
-              Saber Más
-            </ListItem>
-          </Typography>
+          {menuData.map((listItem, i) => {
+            return (
+              <Typography key={i}>
+                <Link
+                  activeClass="active"
+                  to={listItem.link}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={1100}
+                >
+                  <ListItem
+                    onClick={toggleDrawer}
+                    className={classes.drawerLink}
+                  >
+                    {listItem.content}
+                  </ListItem>
+                </Link>
+              </Typography>
+            );
+          })}
         </List>
       </Box>
     </MaterialUIDrawer>
