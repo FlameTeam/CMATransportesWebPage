@@ -6,6 +6,7 @@ import { selectStyle } from "../functions/functions";
 
 import Logo from "./subcomponents/navbar/Logo";
 import Menu from "./subcomponents/navbar/Menu";
+import HamburgerMenu from "./subcomponents/navbar/HamburgerMenu";
 
 import { AppBar, Toolbar, Grid } from "@material-ui/core";
 
@@ -17,11 +18,12 @@ const Navbar = ({ backgroundSection }) => {
     <AppBar position="static">
       <Toolbar className={sectionStyle}>
         <Grid container alignItems="center">
-          <Grid item md={5}>
+          <Grid item xs={10} md={5}>
             <Logo />
           </Grid>
-          <Grid item md={7}>
+          <Grid item xs={2} md={7}>
             <Menu />
+            <HamburgerMenu />
           </Grid>
         </Grid>
       </Toolbar>

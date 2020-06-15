@@ -7,8 +7,10 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     listStyleType: "none",
 
-    [theme.breakpoints.up("xs")]: {},
-    [theme.breakpoints.up("sm")]: {},
+    [theme.breakpoints.up("xs")]: {
+      display: "none",
+    },
+
     [theme.breakpoints.up("md")]: {
       display: "flex",
       paddingRight: "2em",

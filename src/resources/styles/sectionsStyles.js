@@ -4,8 +4,10 @@ const useStyles = makeStyles((theme) => ({
   navbar: {
     backgroundColor: "#2269F1",
 
-    [theme.breakpoints.up("xs")]: {},
-    [theme.breakpoints.up("sm")]: {},
+    [theme.breakpoints.up("xs")]: {
+      padding: "0.3em 0",
+    },
+
     [theme.breakpoints.up("md")]: {
       padding: "0.5em 0",
     },

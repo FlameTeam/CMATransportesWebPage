@@ -11,10 +11,8 @@ const Menu = () => {
     <ul className={classes.list}>
       {menuData.map((listItem, i) => {
         return (
-          <Typography>
-            <li key={i} className={classes.listItemLink}>
-              {listItem.content}
-            </li>
+          <Typography key={i}>
+            <li className={classes.listItemLink}>{listItem.content}</li>
           </Typography>
         );
       })}
