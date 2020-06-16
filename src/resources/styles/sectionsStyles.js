@@ -31,10 +31,10 @@ const useStyles = makeStyles((theme) => ({
       padding: "2em",
     },
     [theme.breakpoints.up("md")]: {
-      padding: "3em",
+      padding: "4em",
     },
     [theme.breakpoints.up("lg")]: {
-      padding: "4em 3em",
+      padding: "4em 5em",
     },
   },
   white: {
