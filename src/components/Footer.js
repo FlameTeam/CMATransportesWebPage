@@ -14,7 +14,7 @@ const Footer = ({ backgroundSection }) => {
   const sectionStyle = selectStyle(backgroundSection, classes);
 
   return (
-    <Box className={sectionStyle}>
+    <Box className={sectionStyle} id="aboutus">
       <Grid container justify="space-around">
         {footerColumnData.map((card, i) => {
           return <FooterColumn key={i} card={card} />;

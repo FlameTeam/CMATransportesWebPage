@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Title from "./subcomponents/Title";
-import QualityCard from "./subcomponents/QualityCard";
+import QualityCard from "./subcomponents/cards/QualityCard";
 import { qualityCardData } from "../resources/data/qualityCardData";
 
 import useStyles from "../resources/styles/sectionsStyles";
@@ -15,7 +15,7 @@ const QualitySeals = ({ backgroundSection }) => {
   const sectionStyle = selectStyle(backgroundSection, classes);
 
   return (
-    <Box className={sectionStyle}>
+    <Box className={sectionStyle} id="quality">
       <Title section="quality-seals" />
       <Title section="quality-seals-sub" />
       <Grid container justify="space-around">

@@ -1,5 +1,5 @@
 /**
- * @author DixonOrtiz
+ * @author DixonOrtiz and Constanza Jazme
  * @function selectStyle
  * @description function that return a different css style for differents colors
  * @argument {string color, object classes (style sheet)}
@@ -9,6 +9,10 @@ exports.selectStyle = (color, classes) => {
   let style;
 
   switch (color) {
+    case "navbar":
+      style = classes.navbar;
+      break;
+
     case "white":
       style = classes.white;
       break;
@@ -16,14 +20,14 @@ exports.selectStyle = (color, classes) => {
     case "blue":
       style = classes.blue;
       break;
-    
+
     case "footer":
       style = classes.footer;
       break;
 
-      case "header":
-        style = classes.header;
-        break;
+    case "header":
+      style = classes.header;
+      break;
 
     default:
       return "";
