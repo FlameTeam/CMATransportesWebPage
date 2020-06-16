@@ -18,7 +18,7 @@ const Services = ({ backgroundSection }) => {
   return (
     <Box className={sectionStyle} id="services">
       <Title section="services" />
-      <Grid container justify="space-around">
+      <Grid container justify="center">
         {servicesCardData.map((card, i) => {
           return <ServicesCard key={i} card={card} />;
         })}

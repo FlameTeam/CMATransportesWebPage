@@ -22,10 +22,11 @@ const ServicesCard = ({ card }) => {
   return (
     <Grid
       item
-      xs={12}
-      sm={6}
+      xs={11}
+      sm={7}
       md={5}
       lg={4}
+      xl={5}
       container
       alignItems="center"
       direction="column"

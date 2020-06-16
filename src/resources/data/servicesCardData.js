@@ -4,7 +4,7 @@ export const servicesCardData = [
     image: "private-transport.svg",
     title: "Transporte Privado",
     services: [
-      "Transporte de trabajadorespara empresas",
+      "Transporte de trabajadores para empresas",
       "Transporte particular por la región metropolitana",
       "Transporte con horario coordinado para eventos o fiestas",
     ],
