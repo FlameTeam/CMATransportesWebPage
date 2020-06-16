@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import PropTypes from "prop-types";
 
 import useStyles from "../../../resources/styles/subcomponents/servicesCardStyle";
@@ -50,7 +51,16 @@ const ServicesCard = ({ card }) => {
         </Typography>
       </ul>
 
-      <Button className={buttonClass.button}>Contratar</Button>
+      <Link
+        activeClass="active"
+        to={card.link}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1100}
+      >
+        <Button className={buttonClass.button}>Contratar</Button>
+      </Link>
     </Grid>
   );
 };
