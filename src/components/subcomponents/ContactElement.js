@@ -31,7 +31,7 @@ const ContactElement = ({ element }) => {
   }
 
   return (
-    <Grid xs={12} sm={8} md={7} lg={7} item>
+    <Grid item xs={12} sm={7} md={7} lg={8}>
       <Box className={classes.background}>
         <img alt={element.icon} src={icon} className={classes.icon} />
         <Typography variant="h2">{element.content}</Typography>
