@@ -1,13 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import useStyles from "../../resources/styles/subcomponents/footerColumnStyle";
 import buttonStyle from "../../resources/styles/subcomponents/buttonStyle";
 
 import { Grid, Button } from "@material-ui/core";
 
 const ButtonColumn = ({ button }) => {
-  const mainClasses = useStyles();
   const buttonClass = buttonStyle();
 
   return (
@@ -20,7 +18,8 @@ const ButtonColumn = ({ button }) => {
       container
       alignItems="center"
       direction="column"
-      className={mainClasses.background}
+      justify="center"
+      className={buttonClass.background}
     >
         <Button className={buttonClass.buttonHeader}>{button.title}</Button>
 

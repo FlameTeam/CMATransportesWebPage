@@ -1,32 +1,31 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
-  button: {
-    background: "#2269F1",
-    color: "#FFFFFF",
-    textTransform: "capitalize",
-    borderRadius: "100px",
-    padding: "0.1em 1em",
-    boxShadow: "4px 4px 4px rgba(0, 0, 0, 0.35)",
 
-    "&:hover": {
-      background: "#FFFFFF",
-      color: "#0228AF",
-    },
-
+  background: {
     [theme.breakpoints.up("xs")]: {
-      fontSize: "1em",
+      padding: "2em 3em 1em 1em",
+      maxWidth: "none",
     },
     [theme.breakpoints.up("sm")]: {
-      fontSize: "1em",
+      maxWidth: "none",
+      minWidth:"170px",
+      padding: "1em 0.5em",
+      margin:"0em 1em"
     },
     [theme.breakpoints.up("md")]: {
-      fontSize: "1.1em",
+      maxWidth: "none",
+      minWidth:"200px",
+      padding: "2em 1em"
     },
     [theme.breakpoints.up("lg")]: {
-      fontSize: "1.2em",
+      maxWidth: "300px",
+      minWidth:"200px",
+      margin:"1em",
+      marginTop: "1em",
     },
   },
+
   
   buttonHeader: {
     background: "#2269F1",
@@ -41,28 +40,22 @@ const useStyles = makeStyles((theme) => ({
     },
 
     [theme.breakpoints.up("xs")]: {
-      margin:"0em 1em 0em 2em",
+      margin:"0em 1em -1em 2em",
       minWidth:"15em",
       fontSize: "0.9em",
-      padding: "0.2em 2em",
+      padding: "0.3em 2em",
     },
     [theme.breakpoints.up("sm")]: {
-      margin:"3em 1em 0em 0em",
+      margin:"0em 1em 0em 0em",
       minWidth:"13em",
       fontSize: "1em",
-      padding: "0.4em 1em",
-    },
-    [theme.breakpoints.up("md")]: {
-      margin:"2.5em 1em 0em 0em",
-      minWidth:"13em",
-      fontSize: "1em",
-      padding: "0.1em 1em",
+      padding: "0.08em 1em",
     },
     [theme.breakpoints.up("lg")]: {
       margin:"0em 1em 0em 0em",
       minWidth:"13em",
-      fontSize: "1.4em",
-      padding: "0.2em 1em",
+      fontSize: "1.1em",
+      padding: "0.1em 1em",
 
     },
   },
