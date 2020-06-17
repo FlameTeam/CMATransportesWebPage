@@ -36,6 +36,9 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("lg")]: {
       padding: "4em 5em",
     },
+    [theme.breakpoints.up("xl")]: {
+      padding: "4em 7em",
+    },
   },
 
   white: { 
