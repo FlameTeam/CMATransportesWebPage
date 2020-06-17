@@ -13,15 +13,15 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: "-1em",
     },
     [theme.breakpoints.up("sm")]: {
-      height: "60px",
+      height: "50px",
       marginLeft: "6%",
     },
     [theme.breakpoints.up("md")]: {
-      height: "70px",
+      height: "60px",
       marginLeft: "0",
     },
     [theme.breakpoints.up("lg")]: {
-      height: "80px",
+      height: "70px",
     },
   },
 }));

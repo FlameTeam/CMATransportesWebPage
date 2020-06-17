@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.up("lg")]: {
       fontSize: "1.2em",
+      margin: "1em 0",
     },
   },
 }));

@@ -12,18 +12,23 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("xs")]: {
       padding: "1em 0 ",
       marginTop: "2em",
+      margin: "2.5em auto 0 auto",
+      maxWidth: "380px",
     },
     [theme.breakpoints.up("sm")]: {
       padding: "1em 0 ",
-      marginTop: "2em",
+      margin: "2.5em auto 0 auto",
+      maxWidth: "420px",
     },
     [theme.breakpoints.up("md")]: {
       padding: "1em 0 ",
-      marginTop: "2em",
+      margin: "2.5em auto 0 auto",
+      maxWidth: "560px",
     },
     [theme.breakpoints.up("lg")]: {
       padding: "1em 0 ",
-      marginTop: "2.5em",
+      margin: "2.5em auto 0 auto",
+      maxWidth: "600px",
     },
   },
 

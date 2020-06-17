@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import PropTypes from "prop-types";
 
 import useStyles from "../../../resources/styles/subcomponents/servicesCardStyle";
@@ -22,10 +23,11 @@ const ServicesCard = ({ card }) => {
   return (
     <Grid
       item
-      xs={12}
-      sm={6}
+      xs={11}
+      sm={7}
       md={5}
       lg={4}
+      xl={5}
       container
       alignItems="center"
       direction="column"
@@ -49,7 +51,16 @@ const ServicesCard = ({ card }) => {
         </Typography>
       </ul>
 
-      <Button className={buttonClass.button}>Contratar</Button>
+      <Link
+        activeClass="active"
+        to={card.link}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1100}
+      >
+        <Button className={buttonClass.button}>Contratar</Button>
+      </Link>
     </Grid>
   );
 };

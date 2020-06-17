@@ -26,10 +26,10 @@ const Navbar = ({ backgroundSection }) => {
       <AppBar position="fixed">
         <Toolbar className={sectionStyle}>
           <Grid container alignItems="center">
-            <Grid item xs={10} md={5}>
+            <Grid item xs={10} md={5} lg={6}>
               <Logo />
             </Grid>
-            <Grid item xs={2} md={7}>
+            <Grid item xs={2} md={7} lg={6}>
               <Menu />
               <HamburgerMenu toggleDrawer={toggleDrawer} />
             </Grid>
