@@ -18,7 +18,7 @@ export const titlesData = [
     section: "header",
     color: "blue",
     title:
-      "Nuestro sello principal es la entrega de un servicio de transporte de calidad",
+      "¡Nuestro sello principal es la entrega de un servicio de transporte de calidad!",
     variant: "h1",
   },
   {
@@ -33,7 +33,7 @@ export const titlesData = [
     id: 5,
     section: "header-sub",
     color: "black",
-    title: "¡Sigue navegando!, conoce nuestros",
+    title: "¡Sigue navegando!, conoce nuestros:",
     variant: "h3",
   },
   {
