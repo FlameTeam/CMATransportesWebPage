@@ -21,7 +21,7 @@ const LeftSideHeader = ({ data }) => {
     >
       <Title section="header" />
       <Title section="header-sub" />
-      <Grid container justify="space-evenly">
+      <Grid container justify="center">
         {data.buttons.map(function (button, i) {
           return <ButtonColumn key={i} button={button} />;
         })}

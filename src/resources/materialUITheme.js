@@ -48,20 +48,12 @@ export const theme = createMuiTheme({
       [breakpoints.up("xs")]: {
         marginTop:"1.4em", 
         marginBottom:"0.5em", 
-        fontSize: "1.35em",
+        fontSize: "1em",
       },
       [breakpoints.up("sm")]: {
-        fontSize: "1.3em",
-        marginTop:"2.2em", 
-      },
-      [breakpoints.up("md")]: {
-        fontSize: "1.5em",
-        marginTop:"2.2em",        
-      },
-      [breakpoints.up("lg")]: {
-        fontSize: "1.9em",
-        marginTop:"2em",        
-      },
+        fontSize: "1.1em",
+        marginTop:"4em", 
+      }
     },
 
     h4: {
@@ -125,22 +117,22 @@ export const theme = createMuiTheme({
 
       [breakpoints.up("xs")]: {
         fontSize: "1em",
-        marginTop:"3em",
+        marginTop:"1.4em",
         marginBottom:"1em",
       },
       [breakpoints.up("sm")]: {
         fontSize: "1.1em",
-        marginTop:"2.2em",
+        marginTop:"1.2em",
         marginBottom:"2.5em",
       },
       [breakpoints.up("md")]: {
         fontSize: "1.2em",
-        marginTop:"1.5em",
+        marginTop:"1.2em",
         marginBottom:"4em",
       },
       [breakpoints.up("lg")]: {
         fontSize: "1.3em",
-        marginTop:"2em",
+        marginTop:"20px",
         marginBottom:"3em",
       }
     },

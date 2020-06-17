@@ -41,20 +41,19 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 
-  white: {
+  white: { 
     backgroundColor: "#FFFFFF",
-
     [theme.breakpoints.up("xs")]: {
-      padding: "4em 2em 6em 2em",
+      padding: "3em 2em",
     },
     [theme.breakpoints.up("sm")]: {
-      padding: "4em 2em 5em 2em",
+      padding: "2em 2em 4em",
     },
     [theme.breakpoints.up("md")]: {
-      padding: "5em 3em 10em 3em",
+      padding: "4em 4em 6em",
     },
     [theme.breakpoints.up("lg")]: {
-      padding: "5em 3em 10em 3em",
+      padding: "5em 5em 7em",
     },
   },
 
@@ -62,19 +61,16 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#FFFFFF",
 
     [theme.breakpoints.up("xs")]: {
-      marginTop: "65px",
-      padding: "1em 1em 6em 1em",
+      padding: "4em 1em 2.5em 1em",
     },
     [theme.breakpoints.up("sm")]: {
-      marginTop: "73px",
-      padding: "4em 2em 5em 2em",
+      padding: "6em 2em 3.5em 2em",
     },
     [theme.breakpoints.up("md")]: {
-      marginTop: "81px",
-      padding: "5em 3em 6em 3em",
+      padding: "10em 3em 3em 5em",
     },
     [theme.breakpoints.up("lg")]: {
-      padding: "8em 3em 8em 3em",
+      padding: "15em 3em 7em 3em",
     },
   },
 
@@ -85,13 +81,13 @@ const useStyles = makeStyles((theme) => ({
       padding: "1em 1em 3em 2em",
     },
     [theme.breakpoints.up("sm")]: {
-      padding: "4em 2em 5em 2em",
+      padding: "1em 2em",
     },
     [theme.breakpoints.up("md")]: {
-      padding: "1em 3em 3em 3em",
+      padding: "1em 3em",
     },
     [theme.breakpoints.up("lg")]: {
-      padding: "2em 2em 3em 2em",
+      padding: "1em 2em",
     },
   },
 }));

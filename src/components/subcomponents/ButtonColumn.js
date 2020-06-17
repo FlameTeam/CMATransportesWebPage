@@ -1,14 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import useStyles from "../../resources/styles/subcomponents/footerColumnStyle";
 import buttonStyle from "../../resources/styles/subcomponents/buttonStyle";
-
+import { Link } from "react-scroll";
 import { Grid, Button } from "@material-ui/core";
 
 const ButtonColumn = ({ button }) => {
-  const mainClasses = useStyles();
-  const buttonClass = buttonStyle();
+  const buttonClass = buttonStyle();  
 
   return (
     <Grid
@@ -20,9 +18,19 @@ const ButtonColumn = ({ button }) => {
       container
       alignItems="center"
       direction="column"
-      className={mainClasses.background}
+      justify="center"
+      className={buttonClass.backgroundHeader}
     >
+      <Link
+        activeClass="active"
+        to={button.action}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={1100}
+      >
         <Button className={buttonClass.buttonHeader}>{button.title}</Button>
+      </Link>
 
     </Grid>
   );

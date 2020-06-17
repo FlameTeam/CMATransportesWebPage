@@ -33,7 +33,7 @@ export const titlesData = [
     id: 5,
     section: "header-sub",
     color: "black",
-    title: "Sigue navegando y conoce nuestros",
+    title: "¡Sigue navegando!, conoce nuestros",
     variant: "h3",
   },
   {

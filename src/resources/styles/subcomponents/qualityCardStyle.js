@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
       maxWidth: "310px",
       minWidth:"200px",
       margin:"auto",
+      minHeight:"18em"
     },
     [theme.breakpoints.up("lg")]: {
       maxWidth: "310px",
