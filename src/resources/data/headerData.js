@@ -4,11 +4,11 @@ export const headerData = [
       buttons: [
         {
           title: "Servicios de transporte",
-          action: "",
+          action: "services",
         },
         {
           title: "Sellos de calidad",
-          action: "",
+          action: "quality",
         },
       ],
     },
