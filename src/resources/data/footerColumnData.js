@@ -24,12 +24,15 @@ export const footerColumnData = [
     information: [
       {
         subtitle: "Móvil: +569 5422 7689 / +569 4498 7538",
+        info:""
       },
       {
         subtitle: "Correo: cmatransporteselmaipo@gmail.com",
+        info:""
       },
       {
         subtitle: "Dirección: Av Senador Jaime Guzmán 1821, Isla de Maipo",
+        info:""
       },
     ],
   },
@@ -38,9 +41,11 @@ export const footerColumnData = [
     information: [
       {
         subtitle: "Santiago de Chile",
+        info:""
       },
       {
         subtitle: "CMT Transportes®, 2020",
+        info:""
       },
     ],
   },

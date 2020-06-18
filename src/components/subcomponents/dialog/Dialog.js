@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Button, Link, Typography } from '@material-ui/core';
+import { Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Link, Typography } from '@material-ui/core';
 import { Transition } from "./Transition";
-import buttonStyle from "../../../resources/styles/subcomponents/buttonStyle";
+import { DefaultButton } from "../../../resources/styles/subcomponents/buttonStyle";
 
 export default function TransitionsDialog({ information }) {
-  const buttonClass = buttonStyle();
   const [open, setOpen] = useState(false);
   const [scroll, setScroll] = useState('paper');
 
@@ -49,9 +48,9 @@ export default function TransitionsDialog({ information }) {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button  className={buttonClass.button} onClick={handleClose}>
+          <DefaultButton onClick={handleClose}>
             Salir
-          </Button>
+          </DefaultButton>
         </DialogActions>
       </Dialog>
     </div>
