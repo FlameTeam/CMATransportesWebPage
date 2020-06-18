@@ -23,7 +23,7 @@ const ServicesCard = ({ card }) => {
   return (
     <Grid
       item
-      xs={11}
+      xs={12}
       sm={7}
       md={5}
       lg={4}

@@ -21,11 +21,31 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 
+  contact: {
+    backgroundColor: "#2269F1",
+
+    [theme.breakpoints.up("xs")]: {
+      padding: "3em 1em",
+    },
+    [theme.breakpoints.up("sm")]: {
+      padding: "2em 1.5em",
+    },
+    [theme.breakpoints.up("md")]: {
+      padding: "4em",
+    },
+    [theme.breakpoints.up("lg")]: {
+      padding: "4em 5em",
+    },
+    [theme.breakpoints.up("xl")]: {
+      padding: "4em 7em",
+    },
+  },
+
   blue: {
     backgroundColor: "#2269F1",
 
     [theme.breakpoints.up("xs")]: {
-      padding: "3em 2em",
+      padding: "3em 1em",
     },
     [theme.breakpoints.up("sm")]: {
       padding: "2em",

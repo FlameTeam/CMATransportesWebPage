@@ -16,7 +16,7 @@ const App = () => {
       <Header backgroundSection="header" />
       <Services backgroundSection="blue" />
       <QualitySeals backgroundSection="white" />
-      <Contact backgroundSection="blue" />
+      <Contact backgroundSection="contact" />
       <Footer backgroundSection="footer" />
     </ThemeProvider>
   );
