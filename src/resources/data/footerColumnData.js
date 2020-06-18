@@ -4,33 +4,33 @@ export const footerColumnData = [
     information: [
       {
         subtitle: "Sobre la empresa",
-        info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        info:
+          "Somos una empresa dedicada al transporte privado y de turismo 24/7, que cuenta con una variedad de servicios para diversas necesidades, tanto para empresas como para las necesidades cotidianas de las personas. Nuestro servicio se caracteriza por brindar seguridad, comodidad y diligencia cuando se trata del transporte de pasajeros para los diversos fines ya sea laborales o turísticos, además contamos con un servicio especial de transporte de encomiendas en donde se pone especial énfasis al momento de la recepción de la encomienda hasta la entrega respetando los tiempos estipulados y confirmando la entrega con el cliente.",
       },
       {
-        subtitle: "Acuerdos y condiciones de trabajo",
-        info: "hola",
+        subtitle: "Servicios Detallados",
+        info:
+          "Realizamos transporte de pasajeros 24/7, este servicio dedicado está a la disposición para cualquier requerimiento en la fecha y hora estipulada, tanto para empresas como para público general. También realiamos transporte de encomiendas, este servicio va dedicado especialmente a la recepcióny entregas de encomiendas en sus variadas modalidades de tarifas y servicios (repartimos en toda la región metropolitana y provincia del maipo). En materia de Turismo, realizamos tours por toda la región metropolitana, viajes particulares por todo el país y arrendamos vehículos con conductor para viajes con fines de turismo.",
       },
       {
-        subtitle: "Sellos de calidad",
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat id nisl sed bibendum. Nunc ullamcorper sollicitudin metus quis feugiat. Donec fringilla sagittis massa sed condimentum. Duis sed accumsan mauris. Morbi ac ante rhoncus, commodo nisl vel, sollicitudin lectus. In vel cursus nibh, sed efficitur quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sodales, lacus in lacinia pretium, sem dolor pellentesque nunc, in ultrices neque nisi eget dolor. Suspendisse nisi tellus, cursus in justo ac, vestibulum rutrum sem. Maecenas eu eros sagittis, vestibulum est at, laoreet elit. Suspendisse sit amet consectetur ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent eleifend purus vel cursus bibendum. Sed sodales lectus eu augue volutpat pharetra. Duis fringilla ullamcorper scelerisque. Ut sed odio ornare, pharetra purus eu, mattis ante. Etiam malesuada et nibh vitae tristique. Donec ultrices nulla ac arcu suscipit feugiat. Integer pharetra quis eros vel eleifend. Nam eleifend finibus ex at suscipit. Sed nulla odio, aliquam vel nibh sit amet, accumsan dapibus orci. Cras faucibus porta libero eu eleifend. In quis eros vel nisl ornare facilisis. Proin accumsan mauris non cursus posuere. Integer justo nisi, molestie quis magna quis, scelerisque cursus libero. Aenean maximus elementum tincidunt. Nulla tincidunt, augue id commodo sollicitudin, mi turpis commodo arcu, in pharetra quam lorem sed eros. In sollicitudin tortor vel tincidunt interdum. Nam in massa risus. Quisque at semper ligula. Aenean vitae orci id lectus pulvinar viverra sit amet et dolor. Morbi vitae fermentum mauris. Nullam suscipit semper justo, in feugiat nisi lacinia ac. Donec varius odio eu aliquet tincidunt. Cras laoreet massa non ultricies laoreet. Cras in mi sollicitudin, semper eros ut, porta mi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat id nisl sed bibendum. Nunc ullamcorper sollicitudin metus quis feugiat. Donec fringilla sagittis massa sed condimentum. Duis sed accumsan mauris. Morbi ac ante rhoncus, commodo nisl vel, sollicitudin lectus. In vel cursus nibh, sed efficitur quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sodales, lacus in lacinia pretium, sem dolor pellentesque nunc, in ultrices neque nisi eget dolor. Suspendisse nisi tellus, cursus in justo ac, vestibulum rutrum sem. Maecenas eu eros sagittis, vestibulum est at, laoreet elit. Suspendisse sit amet consectetur ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent eleifend purus vel cursus bibendum. Sed sodales lectus eu augue volutpat pharetra. Duis fringilla ullamcorper scelerisque. Ut sed odio ornare, pharetra purus eu, mattis ante. Etiam malesuada et nibh vitae tristique. Donec ultrices nulla ac arcu suscipit feugiat. Integer pharetra quis eros vel eleifend. Nam eleifend finibus ex at suscipit. Sed nulla odio, aliquam vel nibh sit amet, accumsan dapibus orci. Cras faucibus porta libero eu eleifend. In quis eros vel nisl ornare facilisis. Proin accumsan mauris non cursus posuere. Integer justo nisi, molestie quis magna quis, scelerisque cursus libero. Aenean maximus elementum tincidunt. Nulla tincidunt, augue id commodo sollicitudin, mi turpis commodo arcu, in pharetra quam lorem sed eros. In sollicitudin tortor vel tincidunt interdum. Nam in massa risus. Quisque at semper ligula. Aenean vitae orci id lectus pulvinar viverra sit amet et dolor. Morbi vitae fermentum mauris. Nullam suscipit semper justo, in feugiat nisi lacinia ac. Donec varius odio eu aliquet tincidunt. Cras laoreet massa non ultricies laoreet. Cras in mi sollicitudin, semper eros ut, porta mi.",
-      }
+        subtitle: "Respecto el Covid-19",
+        info:
+          "Contamos con sistema de sanitizacion en todos nuestros móviles y un riguroso protocolo ante la contingencia mundial.",
+      },
     ],
   },
   {
     title: "Contacto",
     information: [
       {
-        subtitle: "(9) 9876 5432",
-        info: "",
+        subtitle: "Móvil: +569 5422 7689 / +569 4498 7538",
       },
       {
-        subtitle: "eddie@cmt.cl",
-        info: "",
+        subtitle: "Correo: cmatransporteselmaipo@gmail.com",
       },
       {
-        subtitle: "Las Maripositas 324, Las Condes",
-        info: "",
-      }
+        subtitle: "Dirección: Av Senador Jaime Guzmán 1821, Isla de Maipo",
+      },
     ],
   },
   {
@@ -38,12 +38,10 @@ export const footerColumnData = [
     information: [
       {
         subtitle: "Santiago de Chile",
-        info: "",
       },
       {
         subtitle: "CMT Transportes®, 2020",
-        info: "",
-      }
+      },
     ],
-  }
+  },
 ];

@@ -6,8 +6,8 @@ export const servicesCardData = [
     link: "contact",
     services: [
       "Transporte de trabajadores para empresas",
-      "Transporte particular por la región metropolitana",
-      "Transporte con horario coordinado para eventos o fiestas",
+      "Transporte particular 24/7 por toda la RM",
+      "Transporte de encomiendas por toda la RM",
     ],
   },
   {
@@ -16,7 +16,7 @@ export const servicesCardData = [
     title: "Turismo",
     link: "contact",
     services: [
-      "Tours por los principales atractivos turísticos de la región metropolitana",
+      "Tours por los principales atractivos turísticos de la RM",
       "Viajes particulares por todo el país",
       "Arriendo de un vehículo con conductor para turistas",
     ],
