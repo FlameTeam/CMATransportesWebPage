@@ -14,7 +14,8 @@
     "react-scroll": "^1.7.16"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "deploy-production": "react-scripts build && scp -r ./build/* constanza@35.192.61.20:/home/constanza/CMATransportesWebPage/build"
   },
   "eslintConfig": {
     "extends": "react-app"

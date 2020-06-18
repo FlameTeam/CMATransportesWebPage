@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import buttonStyle from "../../resources/styles/subcomponents/buttonStyle";
+import { HeaderButton } from "../../resources/styles/subcomponents/buttonStyle";
 import { Link } from "react-scroll";
-import { Grid, Button } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 
 const ButtonColumn = ({ button }) => {
   const buttonClass = buttonStyle();  
@@ -29,7 +30,7 @@ const ButtonColumn = ({ button }) => {
         offset={-70}
         duration={1100}
       >
-        <Button className={buttonClass.buttonHeader}>{button.title}</Button>
+        <HeaderButton>{button.title}</HeaderButton>
       </Link>
 
     </Grid>
