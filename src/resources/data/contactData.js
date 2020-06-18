@@ -7,11 +7,11 @@ export const contactData = [
   {
     id: 2,
     icon: "whatsapp-icon.svg",
-    content: "+569 9876 5432",
+    content: "+569 5422 7689 / +569 4498 7538",
   },
   {
     id: 3,
     icon: "mail-icon.svg",
-    content: "eddie@cmt.cl",
+    content: "cmatransporteselmaipo@gmail.com",
   },
 ];

@@ -36,9 +36,12 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("lg")]: {
       padding: "4em 5em",
     },
+    [theme.breakpoints.up("xl")]: {
+      padding: "4em 7em",
+    },
   },
 
-  white: { 
+  white: {
     backgroundColor: "#FFFFFF",
     [theme.breakpoints.up("xs")]: {
       padding: "3em 2em",
@@ -58,10 +61,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#FFFFFF",
 
     [theme.breakpoints.up("xs")]: {
-      padding: "4em 1em 2.5em 1em",
+      padding: "7em 1.5em 3em 1.5em",
     },
     [theme.breakpoints.up("sm")]: {
-      padding: "6em 2em 3.5em 2em",
+      padding: "7em 2em 3em 2em",
     },
     [theme.breakpoints.up("md")]: {
       padding: "10em 3em 3em 5em",
