@@ -166,5 +166,20 @@ export const theme = createMuiTheme({
         justifyContent: "center"
       },
     },
+
+    MuiButton:{
+      root:{
+        background: "#2269F1",
+        color: "#FFFFFF",
+        textTransform: "capitalize",
+        borderRadius: "100px",
+        boxShadow: "4px 4px 4px rgba(0, 0, 0, 0.35)",
+    
+        "&:hover": {
+          background: "#FFFFFF",
+          color: "#0228AF",
+        },
+      }      
+    },
   },
 });
