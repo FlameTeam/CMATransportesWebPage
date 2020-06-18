@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#FFFFFF",
     color: "#0228AF",
     display: "flex",
-    flexWrap: "wrap",
+
     justifyContent: "center",
     borderRadius: "20px",
     boxShadow: "4px 4px 4px rgba(0, 0, 0, 0.35)",
@@ -15,11 +15,13 @@ const useStyles = makeStyles((theme) => ({
       marginTop: "2em",
       margin: "2.5em auto 0 auto",
       maxWidth: "380px",
+      flexWrap: "wrap",
     },
     [theme.breakpoints.up("sm")]: {
       padding: "1em 0 ",
       margin: "2.5em auto 0 auto",
       maxWidth: "420px",
+      flexWrap: "no-wrap",
     },
     [theme.breakpoints.up("md")]: {
       padding: "1em 0 ",

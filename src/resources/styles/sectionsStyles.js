@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
       padding: "3em 1em",
     },
     [theme.breakpoints.up("sm")]: {
-      padding: "2em",
+      padding: "2em 1.5em",
     },
     [theme.breakpoints.up("md")]: {
       padding: "4em",
