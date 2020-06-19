@@ -3,15 +3,14 @@ import { Link } from "react-scroll";
 import PropTypes from "prop-types";
 
 import useStyles from "../../../resources/styles/subcomponents/servicesCardStyle";
-import buttonStyle from "../../../resources/styles/subcomponents/buttonStyle";
-import { Grid, Typography, Button } from "@material-ui/core";
+import { DefaultButton } from "../../../resources/styles/subcomponents/buttonStyle";
+import { Grid, Typography } from "@material-ui/core";
 
 import privateTransport from "../../../resources/images/private-transport.svg";
 import turism from "../../../resources/images/turism.svg";
 
 const ServicesCard = ({ card }) => {
   const mainClasses = useStyles();
-  const buttonClass = buttonStyle();
 
   let image = "";
   card.image === "private-transport.svg"
@@ -23,7 +22,7 @@ const ServicesCard = ({ card }) => {
   return (
     <Grid
       item
-      xs={11}
+      xs={12}
       sm={7}
       md={5}
       lg={4}
@@ -59,7 +58,7 @@ const ServicesCard = ({ card }) => {
         offset={-70}
         duration={1100}
       >
-        <Button className={buttonClass.button}>Contratar</Button>
+        <DefaultButton>Contratar</DefaultButton>
       </Link>
     </Grid>
   );

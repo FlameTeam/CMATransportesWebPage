@@ -29,6 +29,10 @@ exports.selectStyle = (color, classes) => {
       style = classes.header;
       break;
 
+    case "contact":
+      style = classes.contact;
+      break;
+
     default:
       return "";
   }

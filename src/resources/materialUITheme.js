@@ -31,7 +31,7 @@ export const theme = createMuiTheme({
 
     h2: {
       [breakpoints.up("xs")]: {
-        fontSize: "1.2em",
+        fontSize: "1.1em",
       },
       [breakpoints.up("sm")]: {
         fontSize: "1.3em",
@@ -46,31 +46,31 @@ export const theme = createMuiTheme({
 
     h3: {
       [breakpoints.up("xs")]: {
-        marginTop:"1.4em", 
-        marginBottom:"0.5em", 
+        marginTop: "1.4em",
+        marginBottom: "0.5em",
         fontSize: "1em",
       },
       [breakpoints.up("sm")]: {
         fontSize: "1.1em",
-        marginTop:"4em", 
-      }
+        marginTop: "4em",
+      },
     },
 
     h4: {
       [breakpoints.up("xs")]: {
-        textAlign:"center",
+        textAlign: "center",
         fontSize: "1em",
       },
       [breakpoints.up("sm")]: {
-        textAlign:"left",
+        textAlign: "left",
         fontSize: "1em",
       },
       [breakpoints.up("md")]: {
-        textAlign:"left",
+        textAlign: "left",
         fontSize: "1em",
       },
       [breakpoints.up("lg")]: {
-        textAlign:"left",
+        textAlign: "left",
         fontSize: "1em",
       },
     },
@@ -90,51 +90,50 @@ export const theme = createMuiTheme({
       },
     },
 
-    body2: {  
+    body2: {
       [breakpoints.up("xs")]: {
-        textAlign:"center",
+        textAlign: "center",
         fontSize: "0.8em",
-        marginBottom:"0.4em",
+        marginBottom: "0.4em",
       },
       [breakpoints.up("sm")]: {
-        textAlign:"left",
+        textAlign: "left",
         fontSize: "0.8em",
-        marginBottom:"0.6em",
+        marginBottom: "0.6em",
       },
       [breakpoints.up("md")]: {
-        textAlign:"left",
+        textAlign: "left",
         fontSize: "0.8em",
-        marginBottom:"0.5em",
+        marginBottom: "0.5em",
       },
       [breakpoints.up("lg")]: {
-        textAlign:"left",
+        textAlign: "left",
         fontSize: "0.85em",
-        marginBottom:"0.7em",
+        marginBottom: "0.7em",
       },
     },
 
     subtitle1: {
-
       [breakpoints.up("xs")]: {
         fontSize: "1em",
-        marginTop:"1.4em",
-        marginBottom:"1em",
+        marginTop: "1.4em",
+        marginBottom: "1em",
       },
       [breakpoints.up("sm")]: {
         fontSize: "1.1em",
-        marginTop:"1.2em",
-        marginBottom:"2.5em",
+        marginTop: "1.2em",
+        marginBottom: "2.5em",
       },
       [breakpoints.up("md")]: {
         fontSize: "1.2em",
-        marginTop:"1.2em",
-        marginBottom:"4em",
+        marginTop: "1.2em",
+        marginBottom: "4em",
       },
       [breakpoints.up("lg")]: {
         fontSize: "1.3em",
-        marginTop:"20px",
-        marginBottom:"3em",
-      }
+        marginTop: "20px",
+        marginBottom: "3em",
+      },
     },
 
     subtitle2: {
@@ -154,17 +153,32 @@ export const theme = createMuiTheme({
   },
 
   overrides: {
-    MuiTypography:{
-      h6:{
-        fontWeight: "bold"
-      }      
+    MuiTypography: {
+      h6: {
+        fontWeight: "bold",
+      },
     },
 
     MuiDialogActions: {
       root: {
-        padding:"8px 8px 12px",
-        justifyContent: "center"
+        padding: "8px 8px 12px",
+        justifyContent: "center",
       },
+    },
+
+    MuiButton:{
+      root:{
+        background: "#2269F1",
+        color: "#FFFFFF",
+        textTransform: "capitalize",
+        borderRadius: "100px",
+        boxShadow: "4px 4px 4px rgba(0, 0, 0, 0.35)",
+    
+        "&:hover": {
+          background: "#FFFFFF",
+          color: "#0228AF",
+        },
+      }      
     },
   },
 });
