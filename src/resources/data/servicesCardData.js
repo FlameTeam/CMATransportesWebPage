@@ -6,8 +6,8 @@ export const servicesCardData = [
     link: "contact",
     services: [
       "Transporte de trabajadores para empresas",
-      "Transporte particular 24/7 por toda la RM",
-      "Transporte de encomiendas por toda la RM",
+      "Transporte particular 24/7 por la provincia de Maipo y toda la RM",
+      "Transporte de encomiendas por la provincia de Maipo y toda la RM",
     ],
   },
   {
