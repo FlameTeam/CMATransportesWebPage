@@ -10,7 +10,7 @@ export const footerColumnData = [
       {
         subtitle: "Servicios Detallados",
         info:
-          "Realizamos transporte de pasajeros 24/7, este servicio está dedicado a disposición de cualquier requerimiento en la fecha y hora estipulada, tanto para empresas como para público general. También realiamos transporte de encomiendas, este servicio va dedicado especialmente a la recepcióny entregas de encomiendas en sus variadas modalidades de tarifas y servicios (repartimos en toda la región metropolitana y provincia del Maipo). En materia de Turismo, realizamos tours por toda la región metropolitana, viajes particulares por todo el país y arrendamos vehículos con conductor para viajes con fines de turismo.",
+          "Realizamos transporte de pasajeros 24/7, este servicio está dedicado a disposición de cualquier requerimiento en la fecha y hora estipulada, tanto para empresas como para público general. También realizamos transporte de encomiendas, este servicio va dedicado especialmente a la recepcióny entregas de encomiendas en sus variadas modalidades de tarifas y servicios (repartimos en toda la región metropolitana y provincia del Maipo). En materia de Turismo, realizamos tours por toda la región metropolitana, viajes particulares por todo el país y arrendamos vehículos con conductor para viajes con fines de turismo.",
       },
       {
         subtitle: "Respecto el Covid",
